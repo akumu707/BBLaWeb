@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://storage.cloudconvert.com/tasks/1d5586ff-3e34-4902-9ad6-f96829875c93/21%20All%20Right%2C%20OK%2C%20You%20Win.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230918%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230918T195232Z&X-Amz-Expires=86400&X-Amz-Signature=befb5ebf964cefd876f9261e2c8224400ec797068d440f9b929b0682f33f9e7a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%2221%20All%20Right%2C%20OK%2C%20You%20Win.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject

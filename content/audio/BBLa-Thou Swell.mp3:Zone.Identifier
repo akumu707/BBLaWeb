@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/2ecb0b71-a357-4505-84a8-dc990deb4793/BBLa-Thou%20Swell.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240124%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240124T204744Z&X-Amz-Expires=86400&X-Amz-Signature=e3e3f7ae109ee9d4b1ef79cd4dd0ab165ec0d1c23e532c42b0793126f0e1b868&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22BBLa-Thou%20Swell.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject

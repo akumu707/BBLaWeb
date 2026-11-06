@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://storage.cloudconvert.com/tasks/ec308d87-e6ff-405a-8c19-4b6aaae33813/09%20Cabaret.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230918%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230918T195235Z&X-Amz-Expires=86400&X-Amz-Signature=42c1f91c8f2381dd1fe7eb8ed85d4af6ec405356d60cad42831542f2cb513863&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%2209%20Cabaret.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject

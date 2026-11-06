@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://storage.cloudconvert.com/tasks/25535a61-7fd2-409e-9b80-9a338d3419eb/BBLa-Wiggle%20Waggle.mp3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230918%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230918T195254Z&X-Amz-Expires=86400&X-Amz-Signature=601e07d39f1726d66909922d95c62671f6c089b18711788c1ef1dfb6da41ca8a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22BBLa-Wiggle%20Waggle.mp3%22&response-content-type=audio%2Fmpeg&x-id=GetObject

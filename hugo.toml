@@ -1,0 +1,108 @@
+baseURL = "https://bigbandla.com/"
+title = "Big Band Lanškroun"
+author = "username"
+languageCode = "en"
+DefaultContentLanguage = "cz"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+hasCJKLanguage = false
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "Tella Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-10"
+
+  [params.site]
+    name = "Big Band Lanškroun"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Kapela z Lanškrouna a okolí se zaměřením na jazz a swing"
+    meta_og_title = "Big Band Lanškroun"
+    meta_og_type = "website"
+    meta_og_url = "https://tella.pages.dev"
+    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_twitter_card = "summary_large_image"
+    meta_twitter_site = "@username"
+    meta_twitter_creator = "@username"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "nahravky"
+    name = "Nahrávky"
+    url = "/nahravky/"
+    weight = 3
+  [[menu.main]]
+    identifier = "repertoir"
+    name = "Repertoir"
+    url = "/repertoir/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "clanky"
+    name = "Články"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "koncerty"
+    name = "Kde hrajeme"
+    url = "/#kde_hrajeme"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "O nás"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Kontakt"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Domů"
+    url = "/"
+      weight = 1
+
+ 
+
+[security]
+  [security.exec]
+    allow = ['.*']
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+  [security.node]
+    [security.node.permissions]
+      disable = true
