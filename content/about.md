@@ -2,7 +2,6 @@
 title = "O nás"
 description = "BigBand Lanškroun"
 date = "2023-09-11"
-aliases = ["about-us", "about-hugo", "contact"]
 author = "Lucie Flídrová, Josef Pilný"
 +++
 Big Band Lanškroun je orchestr s více jak čtyřicetiletou historií. Téměř celou dobu své činnosti je řazen ke špičkovým amatérským orchestrům České republiky. Skvěle zvládá swing, jazzrock, rock, funky, pop a na plesech stylově i dechovku. Tomu také odpovídá jeho velmi široký repertoár přesahující 900 skladeb, kolem 300 je určeno pro plesové a taneční účely.
