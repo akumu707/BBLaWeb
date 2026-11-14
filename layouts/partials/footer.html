@@ -1,28 +1,21 @@
 <footer class="bg-tlgray-100">
   {{ if not .IsHome }}
-  <script src='{{ "/js/clipboard.min.js" | relURL }}'></script>
-  <script src='{{ "/js/highlight.min.js" | relURL }}'></script>
-  <script src='{{ "/js/highlightjs-line-numbers.min.js" | relURL }}'></script>
-  <script src='{{ "/js/sweetalert2.min.js" | relURL }}'></script>
   <script>
-    hljs.initHighlightingOnLoad();
-    hljs.initLineNumbersOnLoad();
-    new ClipboardJS('.url');
-
     function OnClickURL() {
-      Swal.fire({
-        icon: 'success',
-        title: 'Copied!',
-        text: 'Copied the URL and title.'
-      })
+      const url = document.getElementById("url").dataset.clipboardText;
+      navigator.clipboard.writeText(url).then(function() {
+        alert('Copied the URL and title.');
+      }).catch(function(error) {
+        console.error('Copy failed', error);
+      });
     }
   </script>
   {{ end }}
   <script>
     function toggleNav() {
-      var hamburger = document.getElementById("hamburgerbtn");
-      var overlay = document.getElementById("overlay");
-      var body = document.body;
+      const hamburger = document.getElementById("hamburgerbtn");
+      const overlay = document.getElementById("overlay");
+      const body = document.body;
 
       hamburger.addEventListener("click", function () {
         overlay.classList.toggle("open");
@@ -43,10 +36,10 @@
   {{ end }}
   <div class="flex items-center justify-between flex-wrap bg-gray-800 p-8 text-white">
     <div class="items-center text-xl text-grey-900 mr-6">
-      &copy; {{site.Title}} {{ now.Year }}
+      {{ .Site.Params.site.name }}
     </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
-      <div class="text-lg lg:flex-grow">
+    <div class="w-full block grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+      <div class="text-lg lg:grow">
       </div>
       <div class="flex flex-row items-center text-lg">
         {{ range .Site.Menus.footer }}

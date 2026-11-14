@@ -1,7 +1,7 @@
 ---
 title: "Jarní koncert 2026 - pozvánka"
 date: "2026-02-22"
-image: "img/plakat_jarni_26.png"
+image: "/img/plakat_jarni_26.png"
 draft: false
 weight: 100
 author: "Lucie Flídrová"
